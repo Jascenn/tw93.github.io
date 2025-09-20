@@ -53,7 +53,10 @@ _sass/_elements.scss 追加 NEW 徽标样式与动画：
 installation-guide.md
 
 - 顶部英雄区（标题/副标题/快捷按钮）
-- 三平台 Tab（包含 {% include installation/windows|macos|linux.html %}）
+        - 三平台 Tab（分别包含 Windows/MacOS/Linux）：
+            {% include installation/windows.html %}
+            {% include installation/macos.html %}
+            {% include installation/linux.html %}
 - 底部 CTA 卡片（返回首页 / 完整指南 / 拼车服务）
 - 轻量样式与 Tab 切换脚本内联
 
