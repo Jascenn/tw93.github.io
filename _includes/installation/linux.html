@@ -1,0 +1,171 @@
+<h2>🐧 Linux 安装</h2>
+
+<h3>第一步：安装 Node.js 环境</h3>
+
+<p>Claude Code 需要 Node.js 环境才能运行。</p>
+
+<h4>方法一：使用官方仓库（推荐）</h4>
+
+<pre><code class="language-bash"># 添加 NodeSource 仓库
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+
+# 安装 Node.js
+sudo apt-get install -y nodejs
+</code></pre>
+
+<h4>方法二：使用系统包管理器</h4>
+
+<p>虽然版本可能不是最新的，但对于基本使用已经足够：</p>
+
+<pre><code class="language-bash"># Ubuntu/Debian
+sudo apt update
+sudo apt install nodejs npm
+
+# CentOS/RHEL/Fedora
+sudo dnf install nodejs npm
+</code></pre>
+
+<h4>Linux 注意事项</h4>
+
+<ul>
+<li>某些发行版可能需要安装额外的依赖</li>
+<li>如果遇到权限问题，使用 <code>sudo</code></li>
+<li>确保你的用户在 npm 的全局目录有写权限</li>
+</ul>
+
+<h4>验证安装是否成功</h4>
+
+<p>安装完成后，打开终端，输入以下命令：</p>
+
+<pre><code class="language-bash">node --version
+npm --version
+</code></pre>
+
+<p>如果显示版本号，说明安装成功了！</p>
+
+<h3>第二步：安装 Claude Code</h3>
+
+<p>打开终端，运行以下命令：</p>
+
+<pre><code class="language-bash"># 全局安装 Claude Code
+npm install -g @anthropic-ai/claude-code
+</code></pre>
+
+<p>如果遇到权限问题，可以使用 sudo：</p>
+
+<pre><code class="language-bash">sudo npm install -g @anthropic-ai/claude-code
+</code></pre>
+
+<h4>验证 Claude Code 安装</h4>
+
+<p>安装完成后，输入以下命令检查是否安装成功：</p>
+
+<pre><code class="language-bash">claude --version
+</code></pre>
+
+<p>如果显示版本号，恭喜你！Claude Code 已经成功安装了。</p>
+
+<h3>第三步：设置环境变量</h3>
+
+<p>为了让 Claude Code 连接到你的中转服务，需要设置两个环境变量。</p>
+
+<h4>方法一：临时设置（当前会话）</h4>
+
+<p>在终端中运行以下命令：</p>
+
+<pre><code class="language-bash">export ANTHROPIC_BASE_URL="https://use.codecodx.ai/api"
+export ANTHROPIC_AUTH_TOKEN="你的API密钥"
+</code></pre>
+
+<blockquote>
+<p>💡 记得将 <strong>"你的API密钥"</strong> 替换为在管理后台 "API Keys" 标签页中创建的实际密钥。</p>
+</blockquote>
+
+<h4>方法二：永久设置</h4>
+
+<p>编辑你的 shell 配置文件：</p>
+
+<pre><code class="language-bash"># 对于 bash（默认）
+echo 'export ANTHROPIC_BASE_URL="https://use.codecodx.ai/api"' >> ~/.bashrc
+echo 'export ANTHROPIC_AUTH_TOKEN="你的API密钥"' >> ~/.bashrc
+source ~/.bashrc
+
+# 对于 zsh
+echo 'export ANTHROPIC_BASE_URL="https://use.codecodx.ai/api"' >> ~/.zshrc
+echo 'export ANTHROPIC_AUTH_TOKEN="你的API密钥"' >> ~/.zshrc
+source ~/.zshrc
+</code></pre>
+
+<h4>验证环境变量设置</h4>
+
+<p>设置完环境变量后，可以通过以下命令验证是否设置成功：</p>
+
+<pre><code class="language-bash">echo $ANTHROPIC_BASE_URL
+echo $ANTHROPIC_AUTH_TOKEN
+</code></pre>
+
+<p><strong>预期输出示例：</strong></p>
+<pre><code>https://use.codecodx.ai/api
+cr_xxxxxxxxxxxxxxxxxx
+</code></pre>
+
+<h3>第四步：开始使用 Claude Code</h3>
+
+<p>现在你可以开始使用 Claude Code 了！</p>
+
+<h4>启动 Claude Code</h4>
+
+<pre><code class="language-bash">claude
+</code></pre>
+
+<h4>在特定项目中使用</h4>
+
+<pre><code class="language-bash"># 进入你的项目目录
+cd /path/to/your/project
+
+# 启动 Claude Code
+claude
+</code></pre>
+
+<h3>🔧 Linux 常见问题解决</h3>
+
+<details>
+<summary><strong>► 安装时提示权限错误</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<pre><code class="language-bash"># 使用 sudo 安装
+sudo npm install -g @anthropic-ai/claude-code
+
+# 或者修改 npm 权限
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+</code></pre>
+
+</details>
+
+<details>
+<summary><strong>► 缺少依赖库</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<pre><code class="language-bash"># Ubuntu/Debian
+sudo apt-get install build-essential
+
+# CentOS/RHEL/Fedora
+sudo dnf groupinstall "Development Tools"
+</code></pre>
+
+</details>
+
+<details>
+<summary><strong>► 环境变量不生效</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<ol>
+<li>确保修改了正确的配置文件</li>
+<li>重新启动终端</li>
+<li>检查当前使用的 shell：
+   <pre><code class="language-bash">echo $SHELL
+   </code></pre>
+</li>
+</ol>
+
+</details>

@@ -1,0 +1,106 @@
+# Site Information
+
+title: CodeCodex
+description: "Claude Code 的终极指南 - 探索 AI 编程的无限可能"
+url: https://jascenn.github.io
+repo: Jascenn/tw93.github.io
+lang: zh-CN
+encoding: utf-8
+timezone: Africa/El_Aaiun
+
+# Social Media and External URLs
+
+github: Jascenn
+zhihu: LingYi_Stu
+twitter: LingYi_Stu
+v2ex: LingYi_Stu
+
+# 顶部导航（已精简与排序）
+
+menu:
+  - title: "拼车指南"
+    url: "/carpool.html"
+  - title: "安装指南"
+    url: "/installation-guide.html"
+  - title: "博客"
+    url: "/"
+  - title: "关于"
+    url: "/about.html"
+
+# SEO and Analytics
+
+google_analytics: G-KS7EDB6BRM
+
+# Build Settings
+
+paginate: 10
+post_ext: md
+page_ext: md
+post_layout: post
+page_layout: page
+titlecase: true
+future: true
+highlighter: rouge
+markdown: kramdown
+permalink: /:year-:month-:day/:title.html
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day/:title.html
+  posts_en:
+    output: true
+    permalink: /en/:year-:month-:day/:title.html
+    sort_by: date
+
+include: [".htaccess"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - package.json
+  - node_modules
+
+# Plugins
+
+plugins:
+  - jekyll-paginate
+  - jekyll-pdf-embed
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom Site Settings
+
+showBuyCoffee: false
+payImage: //gw.alipayobjects.com/zos/k/vb/1.png
+# 使用本地资源，后续如有 CDN 可替换
+assetUrl: ""
+defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
+# =============================================================================
+
+# 自定义变量（集中可变信息，不影响现有键）
+
+# =============================================================================
+
+site_url: https://jascenn.github.io
+site_baseurl: ""
+repo_code: Jascenn/tw93.github.io
+
+site_name: CodeCodex
+site_description: "Claude Code 的终极指南 - 探索 AI 编程的无限可能"
+
+author_name: Jascen
+author_email: contact@codecodx.ai
+author_github: Jascenn
+author_twitter: ""
+
+# 站点默认分享图（建议放置实际图片，例如 /images/og-default.png）
+
+default_image: /images/og-default.png
+
+comments_enabled: false

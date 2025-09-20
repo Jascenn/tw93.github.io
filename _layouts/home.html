@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+{% if page.url contains '/en/' %}
+<!-- 英文文章，简单列出所有文章，不分页 -->
+{% assign current_posts = site.posts_en %}
+{% if current_posts %}
+  {% assign current_posts = current_posts | sort: 'date' | reverse %}
+  {% include post-item.html posts=current_posts %}
+{% endif %}
+{% else %}
+<!-- 中文文章（保底显示，不依赖分页） -->
+{% assign posts_cn = site.posts | sort: 'date' | reverse %}
+{% include post-item.html posts=posts_cn %}
+{% endif %}
+{{ content }}
