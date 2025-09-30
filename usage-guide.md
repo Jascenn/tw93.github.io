@@ -4,9 +4,9 @@ title: 使用指南
 permalink: /usage-guide.html
 ---
 
-# 📖 CodeCodex 使用指南
+# 📖 Lion CC 使用指南
 
-> 完整的网站管理和内容发布指南，帮助您快速掌握 CodeCodex 平台的各项功能。
+> 完整的网站管理和内容发布指南，帮助您快速掌握 Lion CC 平台的各项功能。
 
 ## 🎯 指南概览
 
@@ -108,10 +108,10 @@ menu:
 #### 核心设置 (`_config.yml`)
 ```yaml
 # 网站信息
-title: CodeCodex
+title: Lion CC
 description: "Claude Code 的终极指南"
-url: https://codecodx.ai
-email: contact@codecodx.ai
+url: https://codecodex.ai
+email: contact@codecodex.ai
 
 # 功能开关
 showBuyCoffee: false
@@ -253,7 +253,7 @@ bundle exec jekyll build --verbose
 ## 💬 获取帮助
 
 ### 技术支持
-- **邮件支持**：contact@codecodx.ai
+- **邮件支持**：contact@codecodex.ai
 - **社群交流**：[Telegram 群组](https://t.me/codecodx_ai)
 - **文档反馈**：[GitHub Issues](https://github.com/codecodx-ai/codecodx.github.io/issues)
 
@@ -270,4 +270,4 @@ bundle exec jekyll build --verbose
 
 ---
 
-*© 2025 CodeCodex - 让 AI 编程更简单*
+*© 2025 Lion CC - 让 AI 编程更简单*
