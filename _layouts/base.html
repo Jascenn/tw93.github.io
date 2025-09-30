@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+{% include head.html %}
+
+{% assign body_id = page.body_id | default: layout.body_id | default: page.layout %}
+<body id="{{ body_id }}">
+  {% include header.html %}
+  
+  <div id="main" role="main">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+
+  <!-- 客服悬浮窗 -->
+  <div id="wechat-float-btn" class="wechat-float-btn" onclick="copyWechatId()" title="点击复制微信号">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M8.5 3C4.36 3 1 6.03 1 9.77c0 2.37 1.48 4.48 3.77 5.68-.15.64-.62 2.57-.67 2.85-.07.38.14.37.3.27.11-.07 1.96-1.36 2.66-1.85.59.1 1.22.15 1.86.15 4.14 0 7.5-3.03 7.5-6.77C16.42 6.03 12.64 3 8.5 3zm-.88 8.46c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm3.38 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+      <path d="M15.5 11.77c-.27 0-.53.02-.79.05.45-.82.72-1.76.72-2.76 0-3.17-2.91-5.74-6.5-5.74-.13 0-.26.01-.39.02C9.66 1.32 11.85.5 14.25.5c3.63 0 6.58 2.66 6.58 5.94 0 2.08-1.3 3.93-3.31 5-.13.56-.54 2.25-.59 2.5-.06.33.12.32.26.24.09-.06 1.72-1.19 2.33-1.62.52.09 1.07.13 1.63.13 3.63 0 6.58-2.66 6.58-5.94S21.78.5 18.15.5c-.92 0-1.8.17-2.62.48.17.48.26.99.26 1.52 0 1.93-1.18 3.61-2.9 4.64.55.51.9 1.23.9 2.03 0 .88-.41 1.67-1.06 2.19.26.04.53.07.81.07 3.63 0 6.58-2.66 6.58-5.94 0-3.28-2.95-5.94-6.58-5.94z"/>
+    </svg>
+    <span class="wechat-text">微信咨询</span>
+  </div>
+
+  <style>
+    .wechat-float-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 80px;
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #07c160 0%, #05a650 100%);
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(7, 193, 96, 0.4);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      z-index: 9999;
+      color: white;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .wechat-float-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(7, 193, 96, 0.6);
+    }
+
+    .wechat-float-btn svg {
+      margin-bottom: 2px;
+    }
+
+    .wechat-text {
+      font-size: 10px;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .wechat-float-btn {
+        right: 15px;
+        bottom: 70px;
+        width: 56px;
+        height: 56px;
+      }
+
+      .wechat-float-btn svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      .wechat-text {
+        font-size: 9px;
+      }
+    }
+  </style>
+
+  <script>
+    function copyWechatId() {
+      const wechatId = '{{ site.wechat }}';
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(wechatId).then(function() {
+          showCopySuccess();
+        }).catch(function() {
+          fallbackCopy(wechatId);
+        });
+      } else {
+        fallbackCopy(wechatId);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        document.execCommand('copy');
+        showCopySuccess();
+      } catch (err) {
+        alert('复制失败，请手动复制微信号：' + text);
+      }
+
+      document.body.removeChild(textarea);
+    }
+
+    function showCopySuccess() {
+      const btn = document.getElementById('wechat-float-btn');
+      const originalHTML = btn.innerHTML;
+
+      btn.innerHTML = '<div style="text-align:center;font-size:12px;font-weight:600;">✓<br>已复制</div>';
+      btn.style.background = 'linear-gradient(135deg, #52c41a 0%, #389e0d 100%)';
+
+      setTimeout(function() {
+        btn.innerHTML = originalHTML;
+        btn.style.background = 'linear-gradient(135deg, #07c160 0%, #05a650 100%)';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>

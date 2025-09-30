@@ -1,0 +1,195 @@
+# ==============================================================================
+# 网站核心信息 / Site Core Information
+# ==============================================================================
+
+title: Lion CC - Claude Code 拼车服务 | 最低¥366/月起
+description: Lion CC 提供 Claude Code 官方授权拼车服务，最低¥366/月起，支持1-6人灵活拼车，绕过CC封锁，国内网络直接使用，稳定运营3个月，VibeCodingAPI算力服务商，欢迎代理合作
+url: https://codecodex.ai
+baseurl: ""
+repo: 1994dira/codecodex.github.io
+
+# 语言和编码设置
+lang: zh-CN
+encoding: utf-8
+timezone: Asia/Shanghai
+
+# ==============================================================================
+# 社交媒体与联系方式 / Social Media & Contact
+# ==============================================================================
+
+github: 1994dira
+zhihu: ""
+twitter: ""
+wechat: HSQBJ088888888
+
+# Lion CC 核心服务链接
+service_website: https://codecodex.ai
+api_platform: https://VibeCodingAPI.ai
+admin_dashboard: https://use.codecodex.ai/admin-next/api-stats
+
+# ==============================================================================
+# 顶部导航菜单 / Navigation Menu
+# ==============================================================================
+
+menu:
+  - title: 拼车指南
+    url: /carpool.html
+    badge: hot
+  - title: 部署教程
+    url: /deployment-guide.html
+    badge: new
+  - title: 常见问题
+    url: /faq.html
+  - title: 安装指南
+    url: /installation-guide.html
+  - title: 关于
+    url: /about.html
+
+# ==============================================================================
+# SEO 与分析 / SEO & Analytics
+# ==============================================================================
+
+google_analytics: ''
+keywords:
+  - Claude Code拼车
+  - Claude拼车
+  - Claude Code部署
+  - AI编程工具
+  - Claude Max拼车
+  - Claude官方授权
+  - 国内使用Claude
+  - Lion CC
+  - VibeCodingAPI
+  - ChatGPT Codex
+
+# ==============================================================================
+# Jekyll 构建设置 / Build Settings
+# ==============================================================================
+
+paginate: 10
+post_ext: md
+page_ext: md
+post_layout: post
+page_layout: page
+titlecase: true
+future: true
+highlighter: rouge
+markdown: kramdown
+permalink: /:year-:month-:day/:title.html
+
+# SASS/SCSS 配置
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 文章集合配置
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day/:title.html
+  posts_en:
+    output: true
+    permalink: /en/:year-:month-:day/:title.html
+    sort_by: date
+
+# 包含/排除文件
+include:
+  - .htaccess
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - package.json
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - UPDATE_NOTES.md
+
+# ==============================================================================
+# Jekyll 插件 / Plugins
+# ==============================================================================
+
+plugins:
+  - jekyll-paginate
+  - jekyll-pdf-embed
+  - jekyll-sitemap
+  - jekyll-feed
+
+# ==============================================================================
+# 自定义站点设置 / Custom Site Settings
+# ==============================================================================
+
+assetUrl: ''
+defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
+# ==============================================================================
+# Lion CC 品牌信息 / Brand Information
+# ==============================================================================
+
+site_name: Lion CC
+site_slogan: Claude Code 拼车服务 - 探索 AI 编程的无限可能
+site_description: Lion CC 提供专业的 Claude Code 拼车服务，最低¥366/月起，稳定运营3个月
+
+# 作者信息
+author_name: 所罗门号商
+author_title: Lion CC 创始人 | 全域 AI 号商
+author_email: contact@codecodex.ai
+author_github: 1994dira
+author_twitter: ''
+author_wechat: HSQBJ088888888
+
+# 站点默认分享图
+default_image: /images/og-default.png
+
+# ==============================================================================
+# 功能开关 / Feature Toggles
+# ==============================================================================
+
+show_tags: true
+show_categories: true
+show_date: true
+show_author: true
+
+# ==============================================================================
+# Lion CC 服务配置 / Service Configuration
+# ==============================================================================
+
+# 拼车套餐配置
+carpool_plans:
+  - name: 6人拼车
+    price: 366
+    users: 6
+    official_price: 200
+  - name: 5人拼车
+    price: 440
+    users: 5
+    official_price: 200
+  - name: 4人拼车
+    price: 550
+    users: 4
+    official_price: 200
+  - name: 3人拼车
+    price: 733
+    users: 3
+    official_price: 200
+  - name: 2人拼车
+    price: 1100
+    users: 2
+    official_price: 200
+  - name: 1人包车
+    price: 2200
+    users: 1
+    official_price: 200
+
+# 服务特点
+service_features:
+  - 官方授权，合规使用
+  - 绕过 CC 封锁，防 IP 降智
+  - 国内网络直连，无需 VPN
+  - 稳定运营近 3 个月
+  - 实时监控仪表盘
+  - 专业技术支持
+  - 欢迎代理合作
