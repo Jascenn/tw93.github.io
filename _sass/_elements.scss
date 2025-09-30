@@ -1,0 +1,181 @@
+
+
+hr {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+
+figure {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  img {
+    margin-bottom: 10px;
+  }
+  a {
+    img {
+      transform: translate(0, 0);
+      transition: transform 0.25s;
+      &:hover {
+        transform: translate(0, -5px);
+        box-shadow: 0 0 10px rgba($base-color, 0.2);
+      }
+    }
+  }
+  &.half {
+    @media #{$large} {
+      img {
+        width: 310px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+  &.third {
+    @media #{$large} {
+      img {
+        width: 200px;
+        float: left;
+        margin-right: 10px;
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure.center {
+  text-align: center;
+}
+
+figure.center img {
+  float: none;
+}
+// Buttons
+// --------------------------------------------------
+.btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  background-color: $primary;
+  color: $white;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: $primary;
+  border-radius: 3px;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+.btn-inverse {
+  background-color: $white;
+  color: $primary;
+  border-color: $white;
+  &:visited {
+    color: $primary;
+  }
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+.btn-success {
+  background-color: $success;
+  color: $white;
+  border-color: $success;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $success;
+  }
+}
+.btn-warning {
+  background-color: $warning;
+  color: $white;
+  border-color: $warning;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $warning;
+  }
+}
+.btn-danger {
+  background-color: $danger;
+  color: $white;
+  border-color: $danger;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $danger;
+  }
+}
+.btn-info {
+  background-color: $info;
+  color: $white;
+  border-color: $info;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $info;
+  }
+}
+
+.well {
+  padding: 20px;
+  border: 1px solid $comp-color;
+  border-radius: 4px;
+}
+
+    .nav-badge.new {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 7px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 999px;
+    background: #dc2626; /* red */
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .2px;
+    box-shadow: 0 0 0 rgba(220, 38, 38, 0.6);
+    animation:
+    nav-badge-pulse 1.2s ease-in-out infinite,
+    nav-badge-jiggle 2.2s ease-in-out infinite;
+    }
+    @keyframes nav-badge-pulse {
+    0%   { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.5); }
+    60%  { transform: scale(1.06); box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+    }
+    @keyframes nav-badge-jiggle {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    10%      { transform: translateY(-1px) rotate(-1.2deg); }
+    20%      { transform: translateY(0) rotate(0.8deg); }
+    30%      { transform: translateY(-1px) rotate(-0.6deg); }
+    40%      { transform: translateY(0) rotate(0.4deg); }
+    50%      { transform: translateY(-1px) rotate(-0.2deg); }
+    }

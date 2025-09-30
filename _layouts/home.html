@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<div class="post-list">
+{% if page.url contains '/en/' %}
+  <!-- 英文文章 -->
+  {% assign all_posts = site.posts_en | sort: 'date' | reverse %}
+  {% assign pinned_posts = all_posts | where: 'pinned', true %}
+  {% assign regular_posts = all_posts | where_exp: 'post', 'post.pinned != true' %}
+
+  <!-- 合并置顶和普通文章，置顶在前 -->
+  {% assign sorted_posts = pinned_posts | concat: regular_posts %}
+  {% include post-item.html posts=sorted_posts %}
+{% else %}
+  <!-- 中文文章 -->
+  {% assign all_posts = site.posts | sort: 'date' | reverse %}
+  {% assign pinned_posts = all_posts | where: 'pinned', true %}
+  {% assign regular_posts = all_posts | where_exp: 'post', 'post.pinned != true' %}
+
+  <!-- 合并置顶和普通文章，置顶在前 -->
+  {% assign sorted_posts = pinned_posts | concat: regular_posts %}
+  {% include post-item.html posts=sorted_posts %}
+{% endif %}
+</div>

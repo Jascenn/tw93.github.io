@@ -1,0 +1,12 @@
+{% for post in include.posts %}
+  {% if post.hide != true %}
+    <a href="{{ post.url | relative_url }}" rel="bookmark" title="{{ post.title }}" itemprop="url" class="header-href">
+      <article class="hentry">
+        <h2 class="entry-title">{% if post.pinned %}<span class="pinned-flag">📌</span>{% endif %}{{ post.title }}</h2>
+        <div class="entry-content">
+          <span>【{{ post.date | date: "%Y-%m-%d" }}】</span>{{ post.summary }}
+        </div>
+      </article>
+    </a>
+  {% endif %}
+{% endfor %}

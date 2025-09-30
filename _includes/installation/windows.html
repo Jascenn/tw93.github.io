@@ -1,0 +1,158 @@
+<h2>🪟 Windows 安装</h2>
+
+<h3>第一步：安装 Node.js 环境</h3>
+
+<p>Claude Code 需要 Node.js 环境才能运行。</p>
+
+<h4>方法一：使用官方安装包（推荐）</h4>
+
+<ol>
+<li>访问 <a href="https://nodejs.org/">https://nodejs.org/</a></li>
+<li>点击 "LTS" 版本下载（推荐）</li>
+<li>下载 Windows Installer (.msi)</li>
+<li>运行安装程序，保持默认设置即可</li>
+<li>安装完成后重启计算机</li>
+</ol>
+
+<h4>方法二：使用 Chocolatey 包管理器</h4>
+
+<p>如果你已经安装了 Chocolatey，可以使用命令行安装：</p>
+
+<pre><code class="language-powershell"># 以管理员身份运行 PowerShell
+choco install nodejs</code></pre>
+
+<h4>Windows 注意事项</h4>
+
+<ul>
+<li>安装过程中会自动配置环境变量</li>
+<li>推荐使用 PowerShell 而不是 CMD</li>
+<li>某些企业环境可能需要管理员权限</li>
+</ul>
+
+<h4>验证安装是否成功</h4>
+
+<p>安装完成后，打开 PowerShell，输入以下命令：</p>
+
+<pre><code class="language-powershell">node --version
+npm --version</code></pre>
+
+<p>如果显示版本号，说明安装成功了！</p>
+
+<h3>第二步：安装 Claude Code</h3>
+
+<p>打开 PowerShell（建议以管理员身份运行），运行以下命令：</p>
+
+<pre><code class="language-powershell"># 全局安装 Claude Code
+npm install -g @anthropic-ai/claude-code</code></pre>
+
+<h4>验证 Claude Code 安装</h4>
+
+<p>安装完成后，输入以下命令检查是否安装成功：</p>
+
+<pre><code class="language-powershell">claude --version</code></pre>
+
+<p>如果显示版本号，恭喜你！Claude Code 已经成功安装了。</p>
+
+<h3>第三步：设置环境变量</h3>
+
+<p>为了让 Claude Code 连接到你的中转服务，需要设置两个环境变量。</p>
+
+<h4>方法一：临时设置（当前会话）</h4>
+
+<p>在 PowerShell 中运行以下命令：</p>
+
+<pre><code class="language-powershell">$env:ANTHROPIC_BASE_URL = "https://use.codecodx.ai/api"
+$env:ANTHROPIC_AUTH_TOKEN = "你的API密钥"</code></pre>
+
+<blockquote>
+<p>💡 记得将 <strong>"你的API密钥"</strong> 替换为在管理后台 "API Keys" 标签页中创建的实际密钥。</p>
+</blockquote>
+
+<h4>方法二：永久设置</h4>
+
+<p><strong>使用系统设置（图形界面）：</strong></p>
+<ol>
+<li>右键点击"此电脑" → "属性"</li>
+<li>点击"高级系统设置"</li>
+<li>点击"环境变量"</li>
+<li>在"用户变量"中点击"新建"，添加：
+   <ul>
+   <li>变量名：<code>ANTHROPIC_BASE_URL</code></li>
+   <li>变量值：<code>https://use.codecodx.ai/api</code></li>
+   </ul>
+</li>
+<li>再次点击"新建"，添加：
+   <ul>
+   <li>变量名：<code>ANTHROPIC_AUTH_TOKEN</code></li>
+   <li>变量值：<code>你的API密钥</code></li>
+   </ul>
+</li>
+<li>点击"确定"保存</li>
+</ol>
+
+<p><strong>使用 PowerShell（永久设置）：</strong></p>
+
+<pre><code class="language-powershell"># 设置用户级环境变量
+[Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://use.codecodx.ai/api", "User")
+[Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "你的API密钥", "User")</code></pre>
+
+<h4>验证环境变量设置</h4>
+
+<p>重新打开 PowerShell，运行以下命令验证设置：</p>
+
+<pre><code class="language-powershell">echo $env:ANTHROPIC_BASE_URL
+echo $env:ANTHROPIC_AUTH_TOKEN</code></pre>
+
+<p><strong>预期输出示例：</strong></p>
+<pre><code>https://use.codecodx.ai/api
+cr_xxxxxxxxxxxxxxxxxx</code></pre>
+
+<h3>第四步：开始使用 Claude Code</h3>
+
+<p>现在你可以开始使用 Claude Code 了！</p>
+
+<h4>启动 Claude Code</h4>
+
+<pre><code class="language-powershell">claude</code></pre>
+
+<h4>在特定项目中使用</h4>
+
+<pre><code class="language-powershell"># 进入你的项目目录
+cd C:\path\to\your\project
+
+# 启动 Claude Code
+claude</code></pre>
+
+<h3>🔧 Windows 常见问题解决</h3>
+
+<details>
+<summary><strong> PowerShell 执行策略错误</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<pre><code class="language-powershell"># 以管理员身份运行 PowerShell，然后执行
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code></pre>
+
+</details>
+
+<details>
+<summary><strong> npm 权限错误</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<ol>
+<li>以管理员身份运行 PowerShell</li>
+<li>或者配置 npm 的全局目录到用户文件夹</li>
+</ol>
+
+</details>
+
+<details>
+<summary><strong> 环境变量不生效</strong></summary>
+
+<p><strong>解决方案：</strong></p>
+<ol>
+<li>确保重新启动了 PowerShell</li>
+<li>检查环境变量是否正确设置</li>
+<li>尝试重启计算机</li>
+</ol>
+
+</details>

@@ -1,0 +1,123 @@
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+
+    <a href="#" onclick="event.preventDefault(); navigator.clipboard.writeText('{{ site.wechat }}').then(() => alert('微信号已复制:\n{{ site.wechat }}')); return false;" class="social-icon wechat-icon" title="点击复制微信号: {{ site.wechat }}" style="cursor: pointer;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M18.5074 6.77534C16.9781 5.66932 15.0844 5.02563 13.0728 5.02563C8.37678 5.02563 4.56543 8.32895 4.56543 12.4181C4.56543 14.2265 5.36976 15.866 6.69503 17.0911C6.79672 17.1801 6.8551 17.3074 6.8551 17.4411V19.3969C6.8551 19.7701 7.2497 20.0126 7.5752 19.8346L9.93167 18.5176C10.0334 18.4614 10.1543 18.4487 10.2624 18.4742C11.1534 18.6919 12.0953 18.8106 13.0728 18.8106C17.7688 18.8106 21.5801 15.5073 21.5801 11.4181C21.5801 9.61132 20.7912 7.94585 19.4787 6.73078C19.4787 6.73078 19.0122 6.80918 18.5074 6.77534ZM9.47845 11.6653C8.85035 11.6653 8.33928 11.1542 8.33928 10.5261C8.33928 9.898 8.85035 9.38693 9.47845 9.38693C10.1065 9.38693 10.6176 9.898 10.6176 10.5261C10.6176 11.1542 10.1065 11.6653 9.47845 11.6653ZM16.6671 11.6653C16.039 11.6653 15.5279 11.1542 15.5279 10.5261C15.5279 9.898 16.039 9.38693 16.6671 9.38693C17.2952 9.38693 17.8063 9.898 17.8063 10.5261C17.8063 11.1542 17.2952 11.6653 16.6671 11.6653Z"/>
+        <path d="M2 9.5C2 13.0899 4.79086 16 8.5 16C9.18191 16 9.84076 15.9142 10.4671 15.7537C10.5742 15.7276 10.6873 15.7399 10.7857 15.7938L12.6746 16.8653C12.9459 17.0162 13.2739 16.8135 13.2739 16.5042V15.0044C13.2739 14.9025 13.3187 14.8051 13.3975 14.7366C14.4122 13.8583 15 12.5886 15 11.1667C15 8.39397 12.5376 6.11905 9.5 6.11905C8.84827 6.11905 8.22148 6.22156 7.63742 6.41131C7.11716 6.57649 6.75 7.07298 6.75 7.62144V7.62144C6.75 8.41365 7.55573 8.92748 8.26923 8.61611C8.66867 8.44279 9.07692 8.35714 9.5 8.35714C11.433 8.35714 13 9.92413 13 11.8571C13 12.9999 12.3807 14.0002 11.4545 14.5714C11.1666 14.7411 11 15.0501 11 15.3836V15.3836C11 15.9283 10.5523 16.3437 10.0192 16.2388C9.55342 16.1467 9.03659 16.0952 8.5 16.0952C5.46243 16.0952 3 13.6328 3 10.5952C3 8.97979 3.68756 7.52381 4.78125 6.5C5.18861 6.11905 5.81142 6.28708 6.05883 6.77534C6.1973 7.05088 6.16465 7.38281 5.97754 7.62578C5.13542 8.72135 4.63636 10.0545 4.63636 11.5C4.63636 11.7761 4.41249 12 4.13636 12H2.5C2.22386 12 2 11.7761 2 11.5V9.5Z"/>
+      </svg>
+    </a>
+
+    <a href="https://twitter.com/{{site.twitter}}" rel="nofollow" target="_blank" class="social-icon" title="Twitter: @{{site.twitter}}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z"></path>
+      </svg>
+    </a>
+
+    <a href="{{ '/feed.xml' | relative_url }}" rel="nofollow" target="_blank" class="social-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z"></path>
+      </svg>
+    </a>
+
+    <span class="social-icon time-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3Z"></path>
+      </svg>
+      <span class="repo-time">@{{ site.time | date: '%Y' }} <img src="/images/config/logo.svg" alt="Lion CC" style="height: 28px; width: auto; vertical-align: middle; margin-left: 4px;"></span>
+    </span>
+  </footer>
+</div>
+
+<script type="text/javascript" src="{{ '/js/index.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="https://gw.alipayobjects.com/os/k/h3/heti-addon.min.js"></script>
+
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag () {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "{{ site.google_analytics }}");
+</script>
+{% endif %} {% if page.url=="/" %}
+<script>
+  function hereDoc (f) {
+    return f
+      .toString()
+      .replace(/^[^\/]+\/\*!?\s?/, "")
+      .replace(/\*\/[^\/]+$/, "");
+  }
+  var string = hereDoc(function () {
+    /*
+    _                               ___                  _____           _       _
+   | |                             |_  |                /  ___|         (_)     | |
+   | |     ___  __ _ _ __ _ __       | | __ ___   ____ _\ `--.  ___ _ __ _ _ __ | |_
+   | |    / _ \/ _` | '__| '_ \      | |/ _` \ \ / / _` |`--. \/ __| '__| | '_ \| __|
+   | |___|  __/ (_| | |  | | | | /\__/ / (_| |\ V / (_| /\__/ / (__| |  | | |_) | |_
+   \_____/\___|\__,_|_|  |_| |_| \____/ \__,_| \_/ \__,_\____/ \___|_|  |_| .__/ \__|
+
+   Hi, I'm Tw93, a Frontend Engineer from China, also dabbling a bit in Swift, Rust, Python, and Sketch. I'm the creator of MiaoYan, Pake, Trendy Weekly, XRender, and WeexUi. Believing in long-termism, I am passionate about open source and enjoy experimenting with new ideas.
+   */
+  });
+  console.log(string);
+</script>
+{% endif %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    //Optimize letter spacing
+    const heti = new Heti(".heti");
+    heti.autoSpacing();
+
+    // Jump out
+    const links = document.links;
+    for (let i = 0; i < links.length; i++) {
+      if (
+        links[i].hostname != window.location.hostname ||
+        (links[i].href && links[i].href.indexOf("feed.xml") != -1)
+      ) {
+        links[i].target = "_blank";
+      }
+    }
+
+    // The second image is the cover image, both of which could do with some optimization
+    const images = document.querySelectorAll('.entry-content img');
+    images.forEach((img, index) => {
+      img.setAttribute('loading', 'lazy');
+      img.setAttribute('decoding', 'async');
+    });
+
+    // Full screen button
+    const fullscreenBtn = document.getElementById("fullscreenBtn");
+    fullscreenBtn && fullscreenBtn.addEventListener("click", function () {
+      var elem = document.getElementById("postIframe");
+
+      if (!document.fullscreenElement) {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    });
+
+    // Select all the links that need to be preloaded
+    const linksToPrefetch = document.querySelectorAll('.read-more, .header-href, .pagination a, .header-item a');
+    linksToPrefetch.forEach(function (link) {
+      link.addEventListener('mouseover', function () {
+        if (!document.querySelector(`link[rel="prefetch"][href="${link.href}"]`)) {
+          var prefetchLink = document.createElement('link');
+          prefetchLink.rel = 'prefetch';
+          prefetchLink.href = link.href;
+          prefetchLink.as = 'document';
+          document.head.appendChild(prefetchLink);
+        }
+      });
+    });
+  });
+</script>
