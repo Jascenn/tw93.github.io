@@ -98,7 +98,7 @@ Claude 官方 API 服务器
 - 使用历史记录
 
 #### Q11: API Key 忘记了怎么办？
-**A:** 联系客服微信 **HSQBJ088888888**，客服会重新发送授权信息。
+**A:** 联系群管理拼车助手微信 **LionCC.ai@拼车助手**，客服会重新发送授权信息。
 
 #### Q12: 支持 API 调用吗？
 **A:** 支持！配置 `CLAUDE_API_BASE` 和 `CLAUDE_API_KEY` 后，可通过 API 方式调用。
@@ -133,7 +133,7 @@ Claude 官方 API 服务器
 ### 💳 关于付款与续费
 
 #### Q16: 如何付款？
-**A:** 添加微信 **HSQBJ088888888**，客服会提供付款方式。
+**A:** 添加群管理拼车助手微信 **LionCC.ai@拼车助手**，客服会提供付款方式。
 
 #### Q17: 到期后如何续费？
 **A:** 到期前客服会提醒续费，保证服务连续性。
@@ -149,7 +149,7 @@ Claude 官方 API 服务器
 ### 🤝 关于代理与合作
 
 #### Q20: 可以成为代理吗？
-**A:** 欢迎代理合作！请联系微信 **HSQBJ088888888** 洽谈合作细节。
+**A:** 欢迎代理合作！请联系群管理拼车助手微信 **LionCC.ai@拼车助手** 洽谈合作细节。
 
 #### Q21: 有推荐奖励吗？
 **A:** 请联系客服了解推荐政策。
@@ -199,11 +199,17 @@ Claude 官方 API 服务器
 
 如果以上内容没有解答你的疑问，请通过以下方式联系我们：
 
-- **微信客服**: HSQBJ088888888
-- **服务时间**: 工作日 9:00-21:00（节假日正常响应）
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/qrcode.jpg" alt="Lion CC 拼车群二维码" style="max-width: 260px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <p style="margin-top: 15px;"><strong>扫码加入拼车群咨询</strong></p>
+</div>
+
+- **群管理拼车助手**: LionCC.ai@拼车助手（微信）
+- **官方博客**: [LionCC.ai](https://LionCC.ai) - 所罗门博客
 - **拼车官网**: [codecodex.ai](https://codecodex.ai)
 - **算力平台**: [VibeCodingAPI.ai](https://VibeCodingAPI.ai)
 - **管理后台**: [use.codecodex.ai/admin-next/api-stats](https://use.codecodex.ai/admin-next/api-stats)
+- **Telegram**: [@codecodex_ai](https://t.me/codecodex_ai)
 
 ---
 

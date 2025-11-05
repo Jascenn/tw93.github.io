@@ -36,10 +36,17 @@ Lion CC 是全球领先的 AI 编程解决方案提供商，专注于 Claude Cod
 
 ### 📬 联系方式
 
-- **微信 ID**: HSQBJ088888888
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/qrcode.jpg" alt="Lion CC 拼车群二维码" style="max-width: 280px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <p style="margin-top: 15px;"><strong>扫码加入 Lion CC 拼车群</strong></p>
+</div>
+
+- **群管理拼车助手**: LionCC.ai@拼车助手（微信）
+- **官方博客**: [LionCC.ai](https://LionCC.ai) - 所罗门博客
 - **拼车官网**: [codecodex.ai](https://codecodex.ai)
 - **算力平台**: [VibeCodingAPI.ai](https://VibeCodingAPI.ai)
 - **管理后台**: [use.codecodex.ai/admin-next/api-stats](https://use.codecodex.ai/admin-next/api-stats)
+- **Telegram**: [@codecodex_ai](https://t.me/codecodex_ai)
 
 ---
 

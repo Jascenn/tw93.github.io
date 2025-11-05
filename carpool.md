@@ -39,11 +39,20 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 ### 🔄 拼车流程
 
-1. **添加微信** - 微信号：HSQBJ088888888
-2. **选择人数** - 告诉客服你要预定几人车（1-6人）
-3. **按教程部署** - 按照使用教程完成本地部署
-4. **发放授权** - 人满开车，收到授权信息即可使用
-5. **技术支持** - 使用过程中遇到问题，随时联系客服
+1. **加入拼车群** - 扫描下方二维码加入拼车群
+2. **填写报名链接** - 在群内获取对应的报名表单
+3. **添加管理员好友** - 联系群管理拼车助手：**LionCC.ai@拼车助手**
+4. **支付车费** - 支持支付宝、微信支付
+5. **等候发车** - 人满即发，24小时内完成部署
+6. **获取授权** - 收到专属 API Base URL 和详细配置教程
+
+### 📲 扫码加入拼车群
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/qrcode.jpg" alt="Lion CC 拼车群二维码" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <p style="margin-top: 15px;"><strong>扫码加群，开启 AI 编程之旅</strong></p>
+  <p style="color: #666;">如二维码过期，请添加群管理拼车助手微信：<strong>LionCC.ai@拼车助手</strong></p>
+</div>
 
 ### 💡 使用说明
 
@@ -56,9 +65,10 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 ### 📞 联系方式
 
-**微信 ID**: HSQBJ088888888
-**服务时间**: 工作日 9:00-21:00（节假日正常响应）
+**群管理拼车助手**: LionCC.ai@拼车助手（微信）
+**官方博客**: [LionCC.ai](https://LionCC.ai) - 所罗门博客，更多AI项目
 **官方网站**: [codecodex.ai](https://codecodex.ai)
+**Telegram**: [@codecodex_ai](https://t.me/codecodex_ai)
 
 ---
 
