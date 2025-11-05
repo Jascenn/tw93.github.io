@@ -32,30 +32,28 @@ admin_dashboard: https://use.codecodex.ai/admin-next/api-stats
 # ==============================================================================
 
 menu:
-  - title: 拼车指南
-    url: /carpool.html
-    badge: hot
+  - title: 关于
+    url: /about.html
+  - title: 安装指南
+    url: /installation-guide.html
+  - title: 常见问题
+    url: /faq.html
   - title: 部署教程
     url: /deployment-guide.html
     badge: new
-  - title: 常见问题
-    url: /faq.html
-  - title: 安装指南
-    url: /installation-guide.html
-  - title: 关于
-    url: /about.html
+  - title: 拼车指南
+    url: /carpool.html
+    badge: hot
 
 # 英文导航菜单 / English Navigation Menu
 menu_en:
+  - title: About
+    url: about.html
+  - title: FAQ
+    url: faq.html
   - title: Carpool Guide
     url: carpool.html
     badge: hot
-  - title: FAQ
-    url: faq.html
-  - title: About
-    url: about.html
-  - title: Profile
-    url: profile.html
 
 # ==============================================================================
 # SEO 与分析 / SEO & Analytics
