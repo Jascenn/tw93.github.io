@@ -2,10 +2,10 @@
 layout: post
 title: "🚗 Lion CC - Official Claude Code Carpool Service"
 date: 2025-09-20
-summary: "Lion CC provides official Claude Code carpool service starting from ¥366/month. Support 1-6 person flexible carpooling, bypass CC restrictions, direct connection in China, stable operation for 3 months. Get free ChatGPT Codex experience when booking, agency partnership welcome!"
+summary: "Lion CC provides official Claude Code carpool service starting from ¥398/month. Support 1-6 person flexible carpooling, bypass CC restrictions, direct connection in China, stable operation for 3 months. Get free ChatGPT Codex experience when booking, agency partnership welcome!"
 categories: [Carpool Service, Claude Code, User Guide]
 tags: [Claude Carpool, Official Authorization, Lion CC, China Direct Connection, Computing Service]
-description: Lion CC provides official Claude Code carpool service starting from ¥366/month, bypass CC restrictions, direct connection in China, stable operation for 3 months
+description: Lion CC provides official Claude Code carpool service starting from ¥398/month, bypass CC restrictions, direct connection in China, stable operation for 3 months
 keywords: Claude Code Carpool,Claude Carpool Price,Lion CC,Use Claude in China,Official Authorization,VibeCodingAPI
 pinned: true
 ---
@@ -37,16 +37,13 @@ Access our management backend to view API call statistics in real-time:
 
 Based on official Claude Max **$200/month** (approximately ¥1450) subscription, Lion CC offers highly cost-effective carpool plans:
 
-| Package Type | Team Size | Monthly Price | Annual Cost | Value |
-|-------------|-----------|---------------|-------------|-------|
-| **6-Person Carpool** ⭐ | 6 people share | **¥366/person/month** | ¥4,392/year | Save 75% |
-| 5-Person Carpool | 5 people share | ¥440/person/month | ¥5,280/year | Save 70% |
-| 4-Person Carpool | 4 people share | ¥550/person/month | ¥6,600/year | Save 62% |
-| 3-Person Carpool | 3 people share | ¥733/person/month | ¥8,796/year | Save 49% |
-| 2-Person Carpool | 2 people share | ¥1,100/person/month | ¥13,200/year | Save 24% |
-| 1-Person Exclusive | Full computing power | ¥2,200/month | ¥26,400/year | Full performance |
+| Package Type | Team Size | Monthly Price | Weekly Quota | Annual Cost | Value |
+|-------------|-----------|---------------|--------------|-------------|-------|
+| **6-Person Carpool** ⭐ | 6 people share | **¥398/person/month** | ~133 USD | ¥4,776/year | Save 72% |
+| 3-Person Carpool | 3 people share | ¥768/person/month | ~267 USD | ¥9,216/year | Save 47% |
+| 1-Person Exclusive | Full computing power | ¥2,200/month | 800 USD | ¥26,400/year | Full performance |
 
-> 💡 **Recommended**: 6-person carpool offers the best value, fully sufficient for daily programming needs, only ¥12 per day!
+> 💡 **Recommended**: 6-person carpool offers the best value, fully sufficient for daily programming needs, only ¥13 per day!
 
 ## 🎁 Exclusive Benefits
 
@@ -217,7 +214,7 @@ For details, contact WeChat: **HSQBJ088888888**
 
 In the AI programming era, tool choice often determines development efficiency. Claude Code is undoubtedly one of the most powerful AI programming assistants, and Lion CC's carpool service makes this powerful tool accessible.
 
-**At less than 1/4 of the official price, enjoy full functionality and professional service guarantee** — this is Lion CC's answer to you.
+**At less than 1/5 of the official price, enjoy full functionality and professional service guarantee** — this is Lion CC's answer to you.
 
 Contact customer service now and start your AI programming journey!
 
