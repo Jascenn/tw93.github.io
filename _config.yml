@@ -49,8 +49,13 @@ menu:
 menu_en:
   - title: About
     url: about.html
+  - title: Installation Guide
+    url: installation-guide.html
   - title: FAQ
     url: faq.html
+  - title: Deployment Guide
+    url: deployment-guide.html
+    badge: new
   - title: Carpool Guide
     url: carpool.html
     badge: hot
