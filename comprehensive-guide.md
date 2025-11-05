@@ -160,8 +160,6 @@ Lion CC 欢迎有资源的朋友加入代理计划：
 
 ---
 
-{% assign about_page = site.pages | where: "name", "about.md" | first %}
-
 ## 🎯 关于 Lion CC
 
 ### 我们的使命
@@ -173,7 +171,7 @@ Lion CC 欢迎有资源的朋友加入代理计划：
 - 🤖 **小智机器人** - 软硬件一体化开发
 - 🌍 **出海学习** - 电商与独立站运营指导
 
-**[了解更多关于我们 →]({{ about_page.url }})**
+**[了解更多关于我们 →](/about.html)**
 
 ---
 
