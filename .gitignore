@@ -22,7 +22,3 @@ README_DEPLOY.md
 *.tmp
 *.bak
 *~
-
-# Internal documentation (not for GitHub)
-docs/LOGO_UPDATE_GUIDE.md
-docs/github.html
