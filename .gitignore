@@ -10,3 +10,15 @@ _config.gh-pages.yml
 .vscode
 Gemfile.lock
 
+# Backup and deployment files
+*.tar.gz
+*.zip
+site_*
+deploy*.sh
+build.sh
+README_DEPLOY.md
+
+# Temporary files
+*.tmp
+*.bak
+*~
