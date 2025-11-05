@@ -114,7 +114,7 @@ Customer service provides API Base URL and API Key, configure environment variab
 ### Step 5: Verify Deployment
 Run `claude "Hello, Claude!"` to test success
 
-> 📖 For detailed deployment tutorial, see: [Deployment Tutorial](/docs/deployment-guide.html)
+> 📖 For detailed deployment tutorial, see: [Deployment Tutorial](/en/deployment-guide.html)
 
 ## Who Should Use?
 

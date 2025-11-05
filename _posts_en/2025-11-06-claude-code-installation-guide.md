@@ -13,7 +13,7 @@ tags: [AI Programming, Installation Guide, Environment Setup, Cross-platform]
 
 ## 🎯 Choose Your Operating System
 
-| [🪟 Windows](/installation-guide.html#-windows-installation) | [🍎 macOS](/installation-guide.html#-macos-installation) | [🐧 Linux/WSL2](/installation-guide.html#-linux-installation) |
+| [🪟 Windows](/en/installation-guide.html#-windows-installation) | [🍎 macOS](/en/installation-guide.html#-macos-installation) | [🐧 Linux/WSL2](/en/installation-guide.html#-linux-installation) |
 |---|---|---|
 | PowerShell + GUI | Terminal + Homebrew | Command Line + Package Manager |
 
@@ -106,7 +106,7 @@ We've compiled detailed troubleshooting solutions for each platform:
 
 ## 📚 Related Resources
 
-- **[Complete Installation Guide](/installation-guide.html)** - Detailed tutorials for three platforms
+- **[Complete Installation Guide](/en/installation-guide.html)** - Detailed tutorials for three platforms
 - **[Usage Tutorial](./BLOGGING_GUIDE.md)** - Blog content publishing guide
 - **[Developer Configuration](./DEVELOPER_CONFIG_GUIDE.md)** - Advanced configuration options
 
@@ -125,7 +125,7 @@ Claude Code will become your most capable programming assistant, making coding m
 
 ### 💬 Need Help?
 
-- 📖 View [Complete Installation Guide](/installation-guide.html)
+- 📖 View [Complete Installation Guide](/en/installation-guide.html)
 - 🐛 Encountered issues? Visit [GitHub Issues](https://github.com/codecodx-ai/codecodx.github.io/issues)
 - 💬 Join community: [Telegram Group](https://t.me/codecodx_ai)
 - 📧 Contact us: contact@codecodex.ai

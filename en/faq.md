@@ -84,7 +84,7 @@ keywords: Claude Code FAQ,Claude Carpool FAQ,Claude Deployment Issues,Claude Pri
 
 #### Q11: What if I encounter issues?
 **A:**
-1. Check [deployment tutorial](/docs/deployment-guide.html)
+1. Check [deployment tutorial](/en/deployment-guide.html)
 2. Contact WeChat customer service: HSQBJ088888888
 3. Check API status dashboard
 4. Customer service response time: < 2 hours during business hours
