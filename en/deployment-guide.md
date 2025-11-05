@@ -198,27 +198,22 @@ claude "Analyze and fix this error: TypeError at line 42"
 - **Official Blog**: [LionCC.ai](https://LionCC.ai) - Solomon's Blog
 - **Carpool Website**: [codecodex.ai](https://codecodex.ai)
 - **Computing Platform**: [VibeCodingAPI.ai](https://VibeCodingAPI.ai)
+- **Admin Portal**: [use.codecodex.ai/admin-next/api-stats](https://use.codecodex.ai/admin-next/api-stats)
+- **Telegram**: [@codecodex_ai](https://t.me/codecodex_ai)
 
 ---
 
-## 🎉 Start Your AI Programming Journey
+## 🎁 Special Offers
 
-Deployment complete! Now enjoy:
+**Book Claude Code carpool and get free ChatGPT Codex trial!**
 
-- **Smart Code Generation** - Describe requirements, auto-generate code
-- **Code Refactoring** - Improve structure and performance
-- **Error Debugging** - Quick problem location and fixing
-- **Documentation Generation** - Auto-generate standard documentation
+Lion CC also provides:
+- 🚗 Claude Code Carpool Service (6-person ¥398/mo, 3-person ¥768/mo, 1-person ¥2200/mo)
+- ⚡ VibeCodingAPI.ai Global AI Model API Computing Service
+- 🤖 ChatGPT Codex Programming Service
 
-Claude Code will be your most capable programming assistant!
+For details, contact group admin WeChat: **LionCC.ai@Carpool Assistant**
 
 ---
 
-<div style="padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; text-align: center; color: white; margin: 40px 0;">
-  <h2 style="margin: 0 0 20px 0;">🚀 Ready to Get Started?</h2>
-  <p style="font-size: 1.2rem; margin: 0 0 30px 0;">Join Lion CC Claude Code carpool service and enjoy professional AI programming experience</p>
-  <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-    <a href="/en/carpool.html" style="padding: 12px 30px; background: white; color: #667eea; text-decoration: none; border-radius: 8px; font-weight: bold;">View Carpool Plans</a>
-    <a href="https://t.me/codecodx_ai" style="padding: 12px 30px; background: transparent; border: 2px solid white; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">Join Community</a>
-  </div>
-</div>
+> 💼 **Friendly Reminder**: This solution has been stably serving the market for nearly 3 months, supports flexible 1-6 person carpooling, agency cooperation welcome!
