@@ -10,75 +10,75 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 <style>
 .carpool-hero {
   text-align: center;
-  padding: 50px 20px;
+  padding: 25px 15px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
-  margin: 30px 0;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  margin: 15px 0;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
 }
 
 .carpool-hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 15px;
+  font-size: 1.8em;
+  margin-bottom: 8px;
   color: white;
 }
 
 .carpool-hero .subtitle {
-  font-size: 1.2em;
+  font-size: 1em;
   opacity: 0.95;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .carpool-hero .highlight {
-  font-size: 1em;
+  font-size: 0.9em;
   background: rgba(255,255,255,0.2);
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 6px 12px;
+  border-radius: 6px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .pricing-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
 }
 
 .pricing-card {
   background: white;
   border: 2px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 25px 20px;
+  border-radius: 10px;
+  padding: 18px 15px;
   text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
 }
 
 .pricing-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
   border-color: #667eea;
 }
 
 .pricing-card .icon {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-
-.pricing-card .name {
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #1a202c;
+  font-size: 2em;
   margin-bottom: 8px;
 }
 
+.pricing-card .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 6px;
+}
+
 .pricing-card .price {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   color: #667eea;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .pricing-card .price .currency {
@@ -88,97 +88,148 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 .pricing-card .quota {
   background: #f7fafc;
-  padding: 8px 10px;
-  border-radius: 6px;
+  padding: 6px 8px;
+  border-radius: 5px;
   color: #4a5568;
-  margin-top: 10px;
-  font-size: 0.95em;
+  margin-top: 8px;
+  font-size: 0.85em;
 }
 
 .pricing-card .users {
   color: #718096;
-  font-size: 0.9em;
-  margin-top: 6px;
+  font-size: 0.85em;
+  margin-top: 5px;
 }
 
 .info-section {
   background: #f8fafc;
-  border-left: 4px solid #667eea;
-  padding: 25px;
-  border-radius: 8px;
-  margin: 30px 0;
+  border-left: 3px solid #667eea;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 15px 0;
+  font-size: 0.95em;
 }
 
 .info-section h3 {
   margin-top: 0;
+  margin-bottom: 8px;
   color: #667eea;
+  font-size: 1.1em;
+}
+
+.info-section ol, .info-section ul {
+  margin: 8px 0;
+  padding-left: 25px;
+}
+
+.info-section li {
+  margin-bottom: 5px;
 }
 
 .advantage-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin: 25px 0;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 15px 0;
 }
 
 .advantage-item {
   background: white;
-  padding: 20px;
-  border-radius: 12px;
+  padding: 12px;
+  border-radius: 8px;
   border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .advantage-item strong {
   color: #667eea;
   display: block;
-  margin-bottom: 8px;
-  font-size: 1.1em;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.advantage-item p {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 .process-steps {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin: 25px 0;
+  gap: 10px;
+  margin: 15px 0;
 }
 
 .process-step {
   background: white;
-  padding: 20px 25px;
-  border-radius: 12px;
-  border-left: 5px solid #667eea;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   transition: all 0.2s ease;
 }
 
 .process-step:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform: translateX(3px);
+}
+
+.process-step strong {
+  font-size: 1em;
+}
+
+.process-step p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
 }
 
 .qrcode-section {
   text-align: center;
   background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
-  padding: 40px;
-  border-radius: 16px;
-  margin: 40px 0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 25px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .qrcode-section img {
-  max-width: 280px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  border: 5px solid white;
+  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border: 4px solid white;
+}
+
+.qrcode-section h3 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #1a202c;
+  font-size: 1.2em;
+}
+
+.qrcode-section p {
+  margin: 5px 0;
+  font-size: 0.9em;
 }
 
 .contact-info {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 30px;
-  border-radius: 16px;
-  margin: 30px 0;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+.contact-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.contact-info p {
+  margin: 6px 0;
+  font-size: 0.95em;
 }
 
 .contact-info a {
@@ -193,9 +244,12 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 @media (max-width: 768px) {
   .carpool-hero h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+  .advantage-grid {
     grid-template-columns: 1fr;
   }
 }
