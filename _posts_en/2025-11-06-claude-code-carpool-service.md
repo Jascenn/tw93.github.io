@@ -92,6 +92,10 @@ Claude Official API Server
 
 Add WeChat customer service **HSQBJ088888888**, tell us how many people you want to book for
 
+**Scan QR Code to Join Carpool Group:**
+
+![Carpool Group QR Code](/images/qrcode.jpg)
+
 - 💬 **WeChat**: HSQBJ088888888
 - 🕐 **Service Hours**: Weekdays 9:00-21:00 (Normal response on holidays)
 
