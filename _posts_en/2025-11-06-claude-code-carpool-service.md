@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🚗 Lion CC - Official Claude Code Carpool Service"
-date: 2025-09-20
+date: 2025-11-06
 summary: "Lion CC provides official Claude Code carpool service starting from ¥398/month. Support 1-6 person flexible carpooling, bypass CC restrictions, direct connection in China, stable operation for 3 months. Get free ChatGPT Codex experience when booking, agency partnership welcome!"
 categories: [Carpool Service, Claude Code, User Guide]
 tags: [Claude Carpool, Official Authorization, Lion CC, China Direct Connection, Computing Service]
@@ -222,4 +222,4 @@ Contact customer service now and start your AI programming journey!
 
 > 💡 **Tip**: Claude Max account resources are limited, advance booking recommended. Lion CC promises service quality, enabling every developer to use Claude Code efficiently!
 
-*Last updated: September 20, 2025 | Lion CC Leo Programming*
+*Last updated: November 6, 2025 | Lion CC Leo Programming*

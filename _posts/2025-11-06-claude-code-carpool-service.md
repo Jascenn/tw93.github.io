@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🚗 LionCC 狮子编程 Claude Code 拼车招募 - 稳定运行3个月+"
-date: 2025-09-20
+date: 2025-11-06
 summary: "Claude Code Max 200刀拼车，六人车398元/月，三人车768元/月，单人车2200元/月！运行稳定3个月+，绕过官方封号、国区封锁、零IP环境门槛。周额度800刀均分，透明管理，专号专用。OpenAI Codex 368元/月同步招募！"
 categories: [拼车, Claude Code, 服务]
 tags: [拼车, 授权服务, API部署, 本地运行, LionCC]
