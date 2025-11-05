@@ -117,7 +117,7 @@ brew install anthropics/claude/claude
 iwr https://claude.ai/download/win | iex
 ```
 
-For detailed tutorial, see: [Deployment Guide](/deployment-guide.html)
+For detailed tutorial, see: [Deployment Guide](/en/deployment-guide.html)
 
 ### Step 4: Configure Authorization
 
@@ -178,7 +178,7 @@ Seeing normal response means deployment successful! 🎉
 ### Q: How to renew?
 **A:** We will notify in advance before service expiration, support original team renewal or re-teaming.
 
-For more questions, see: [FAQ](/faq.html)
+For more questions, see: [FAQ](/en/faq.html)
 
 ## 🤝 Agency Partnership
 
@@ -203,10 +203,10 @@ For details, contact WeChat: **HSQBJ088888888**
 - **Management Backend**: [use.codecodex.ai/admin-next/api-stats](https://use.codecodex.ai/admin-next/api-stats)
 
 ### 📖 Quick Navigation
-- [Carpool Guide](/carpool.html) - Learn about package details
-- [Deployment Tutorial](/deployment-guide.html) - Learn how to deploy
-- [FAQ](/faq.html) - Answer your questions
-- [About Us](/about.html) - Learn about Lion CC
+- [Carpool Guide](/en/carpool.html) - Learn about package details
+- [Deployment Tutorial](/en/deployment-guide.html) - Learn how to deploy
+- [FAQ](/en/faq.html) - Answer your questions
+- [About Us](/en/about.html) - Learn about Lion CC
 
 ---
 
