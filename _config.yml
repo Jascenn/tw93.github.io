@@ -45,6 +45,18 @@ menu:
   - title: 关于
     url: /about.html
 
+# 英文导航菜单 / English Navigation Menu
+menu_en:
+  - title: Carpool Guide
+    url: carpool.html
+    badge: hot
+  - title: FAQ
+    url: faq.html
+  - title: About
+    url: about.html
+  - title: Profile
+    url: profile.html
+
 # ==============================================================================
 # SEO 与分析 / SEO & Analytics
 # ==============================================================================
