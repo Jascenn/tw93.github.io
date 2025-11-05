@@ -22,3 +22,6 @@ README_DEPLOY.md
 *.tmp
 *.bak
 *~
+
+# Internal documentation (not for GitHub)
+docs/
