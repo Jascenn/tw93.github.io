@@ -41,44 +41,44 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 .pricing-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  margin: 40px 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
 }
 
 .pricing-card {
   background: white;
   border: 2px solid #e2e8f0;
-  border-radius: 16px;
-  padding: 30px;
+  border-radius: 12px;
+  padding: 25px 20px;
   text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
 
 .pricing-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
   border-color: #667eea;
 }
 
 .pricing-card .icon {
-  font-size: 3em;
-  margin-bottom: 15px;
-}
-
-.pricing-card .name {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #1a202c;
+  font-size: 2.5em;
   margin-bottom: 10px;
 }
 
+.pricing-card .name {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
 .pricing-card .price {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
   color: #667eea;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .pricing-card .price .currency {
@@ -88,16 +88,17 @@ keywords: Claude Code拼车,Claude拼车价格,Claude Max拼车,Claude官方授�
 
 .pricing-card .quota {
   background: #f7fafc;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
   color: #4a5568;
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: 0.95em;
 }
 
 .pricing-card .users {
   color: #718096;
-  font-size: 0.95em;
-  margin-top: 8px;
+  font-size: 0.9em;
+  margin-top: 6px;
 }
 
 .info-section {
