@@ -9,8 +9,8 @@ lang: en-US
   <h1>📦 Claude Code Installation Guide</h1>
   <p class="subtitle">Complete guide for Windows / macOS / Linux - from environment setup to first run.</p>
   <div class="quick-actions">
-    <a class="qa-btn" href="/usage-guide.html">🚀 Get Started</a>
-    <a class="qa-btn ghost" href="/comprehensive-guide.html">📖 Full Guide</a>
+    <a class="qa-btn" href="/en/carpool.html">🚀 Get Started</a>
+    <a class="qa-btn ghost" href="/en/deployment-guide.html">📖 Deployment Guide</a>
   </div>
 </div>
 
@@ -64,9 +64,9 @@ You've successfully installed and configured Claude Code. Now you can start enjo
 
 ### 📚 Related Resources
 
-- [Usage Guide](/usage-guide.html) - Detailed usage instructions
-- [Comprehensive Guide](/comprehensive-guide.html) - One-stop service guide
+- [Deployment Guide](/en/deployment-guide.html) - Step-by-step deployment tutorial
 - [Carpool Service](/en/carpool.html) - Team subscription guide
+- [FAQ](/en/faq.html) - Frequently asked questions
 
 ### 💬 Need Help?
 
@@ -83,7 +83,7 @@ If you encounter any issues:
   <div class="links">
     <a href="/en/">🏠 Home</a>
     <span>·</span>
-    <a href="/comprehensive-guide.html">📖 Full Guide</a>
+    <a href="/en/deployment-guide.html">📖 Deployment Guide</a>
     <span>·</span>
     <a href="/en/carpool.html">🚗 Carpool Service</a>
   </div>
