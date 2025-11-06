@@ -4,10 +4,10 @@
   "homepage": "https://jascenn.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jascenn/CodeCodex.AI"
+    "url": "https://github.com/Jascenn/codecodex.ai"
   },
   "bugs": {
-    "url": "https://github.com/Jascenn/CodeCodex.AI/issues"
+    "url": "https://github.com/Jascenn/codecodex.ai/issues"
   },
   "scripts": {
     "prep": "gem install bundler && bundle install",
