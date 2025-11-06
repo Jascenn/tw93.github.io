@@ -21,7 +21,7 @@ author: Lion CC
 
 本指南基于 **LionCC API**（VibeCodingAPI.ai）平台测试验证，已完整适配 BettaFish 微舆系统所有 LLM 模型（Claude、GPT-4、Gemini 等）。
 
-> **🎁 福利**: 通过 <a href="javascript:void(0)" onclick="showQRCode()" style="color: #0066cc; text-decoration: underline; cursor: pointer;">codecodex.ai 社群</a> 注册 LionCC API 可获 $20 测试额度（限前 1000 名）
+> **🎁 福利**: 通过 <a href="#" onclick="showQRCode(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;">codecodex.ai 社群</a> 注册 LionCC API 可获 $20 测试额度（限前 1000 名）
 
 <div id="qrcode-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 9999; justify-content: center; align-items: center;" onclick="hideQRCode()">
   <div style="background: white; padding: 30px; border-radius: 15px; text-align: center; max-width: 400px;" onclick="event.stopPropagation()">
@@ -874,7 +874,7 @@ docker logs bettafish 2>&1 | grep -i error
 ### 技术支持
 
 如需部署指导或遇到问题：
-- 微信：**HSQBJ088888888**（<a href="javascript:void(0)" onclick="showQRCode()" style="color: #0066cc; text-decoration: underline; cursor: pointer;">点击查看二维码</a>，备注：BettaFish）
+- 微信：**HSQBJ088888888**（<a href="#" onclick="showQRCode(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;">点击查看二维码</a>，备注：BettaFish）
 - 访问：[codecodex.ai](https://codecodex.ai) | [vibecodingapi.ai](https://vibecodingapi.ai)
 
 ---
