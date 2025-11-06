@@ -72,7 +72,7 @@ permalink: /installation-guide.html
 如果在使用过程中遇到任何问题，可以：
 
 - 查看上方的常见问题解决方案
-- 访问 [GitHub Issues](https://github.com/Jascenn/codecodxai.github.io/issues)
+- 访问 [GitHub Issues](https://github.com/Jascenn/CodeCodex.AI/issues)
 - 加入我们的 [Telegram 群组](https://t.me/codecodx_ai)
 
 ---

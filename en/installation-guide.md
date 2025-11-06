@@ -73,7 +73,7 @@ You've successfully installed and configured Claude Code. Now you can start enjo
 If you encounter any issues:
 
 - Check the troubleshooting solutions above
-- Visit [GitHub Issues](https://github.com/Jascenn/codecodxai.github.io/issues)
+- Visit [GitHub Issues](https://github.com/Jascenn/CodeCodex.AI/issues)
 - Join our [Telegram Group](https://t.me/codecodx_ai)
 
 ---
