@@ -94,7 +94,7 @@ Test with: `claude "Hello, Claude!"`
 
 1. **Technical Support**: Full solution for IP, network, server, and account resources. Stable Claude Code and OpenAI Codex service established
 2. **Security & Compliance**: Only for AI learning, legal and compliant use, no illegal purposes
-3. **After-Sales Support**: No refunds after onboarding. If service downtime occurs, we'll switch to VibeCodingAPI.ai seamlessly and restore within 24 hours (extend service for any delay beyond 24h)
+3. **After-Sales Support**: ⚠️ **Virtual products are non-refundable once delivered - no mid-service cancellations**. If service downtime occurs, we'll switch to VibeCodingAPI.ai seamlessly and restore within 24 hours (extend service for any delay beyond 24h)
 
 ### 📞 Contact Information
 

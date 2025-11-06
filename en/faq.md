@@ -114,10 +114,7 @@ keywords: Claude Code FAQ,Claude Carpool FAQ,Claude Deployment Issues,Claude Pri
 - Renewal process same as initial subscription
 
 #### Q16: Is there a refund policy?
-**A:**
-- Refund available within 7 days if service doesn't meet expectations
-- Prorated refund for remaining unused days
-- Contact customer service to initiate refund
+**A:** ⚠️ **Virtual products are non-refundable once delivered - no mid-service cancellations**. This is the industry standard for virtual service products. Once the API key and service authorization are provided, the product is considered delivered. Please fully understand the service details before purchasing and make a careful decision. We recommend joining the carpool group to consult first before committing.
 
 ---
 
