@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BettaFish 微舆系统 - LionCC API 部署配置完全指南"
-date: 2025-11-07 16:00:00
+date: 2025-11-07 08:00:00 +0800
 summary: "BettaFish 微舆系统完整部署教程，包含 LionCC API 配置、Docker 部署、模型选择建议及常见问题解决方案。支持 Claude、GPT-4、Gemini 等多种 LLM 模型。"
 categories: Tech
 tags: [BettaFish, LionCC, API部署, Docker, LLM, Claude, GPT-4, Gemini]

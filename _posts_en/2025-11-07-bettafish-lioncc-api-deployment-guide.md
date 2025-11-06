@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BettaFish Micro-Sentiment System - LionCC API Complete Deployment Guide"
-date: 2025-11-07 16:00:00
+date: 2025-11-07 08:00:00 +0800
 summary: "Complete deployment tutorial for BettaFish Micro-Sentiment System, including LionCC API configuration, Docker deployment, model selection recommendations, and troubleshooting solutions. Supports Claude, GPT-4, Gemini, and other LLM models."
 categories: Tech
 tags: [BettaFish, LionCC, API Deployment, Docker, LLM, Claude, GPT-4, Gemini]
