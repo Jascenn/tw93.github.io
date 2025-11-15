@@ -6,6 +6,8 @@ summary: "BettaFish one-click deployment toolkit. Double-click to complete deplo
 categories: Tech
 tags: [BettaFish, One-Click Deployment, Cross-Platform Tools, Automated Deployment]
 author: LION CC
+lang: en
+lang_ref: bettafish-deployment-v2
 ---
 
 > **Tool Author**: LION CC ([codecodex.ai](https://codecodex.ai))

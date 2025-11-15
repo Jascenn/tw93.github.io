@@ -9,6 +9,23 @@ body_id: post
     <h4 class="page-info">
       <span>Categories: {{page.categories}}</span>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+
+      {% if page.lang_ref %}
+      <div class="lang-switch-container">
+        {% assign posts = site.posts | where: "lang_ref", page.lang_ref %}
+        {% assign posts_en = site.posts_en | where: "lang_ref", page.lang_ref %}
+        {% if page.lang == "zh-CN" %}
+          {% for post in posts_en %}
+          <a href="{{ post.url }}" class="lang-switch-btn" title="Switch to English">EN</a>
+          {% endfor %}
+        {% else %}
+          {% for post in posts %}
+          <a href="{{ post.url }}" class="lang-switch-btn" title="切换到中文">中文</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+      {% endif %}
+
       <div class="qr-text" id="J_qr_text">
         <div id="J_qr_code" class="qr-code" onmouseover="this.title='';"></div>
       </div>
@@ -17,3 +34,30 @@ body_id: post
   </div>
   {% include read-more.html %}
 </article>
+
+<style>
+.lang-switch-container {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.lang-switch-btn {
+  display: inline-block;
+  padding: 4px 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.lang-switch-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.5);
+  text-decoration: none;
+  color: white;
+}
+</style>

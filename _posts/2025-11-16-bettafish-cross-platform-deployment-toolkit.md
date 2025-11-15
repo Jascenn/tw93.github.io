@@ -6,6 +6,8 @@ summary: "BettaFish 一键部署工具包，双击运行即可完成部署。支
 categories: Tech
 tags: [BettaFish, 一键部署, 跨平台工具, 自动化部署]
 author: LION CC
+lang: zh-CN
+lang_ref: bettafish-deployment-v2
 ---
 
 > **工具作者**: LION CC（[codecodex.ai](https://codecodex.ai)）
