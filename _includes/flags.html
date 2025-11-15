@@ -1,6 +1,16 @@
 <!-- 语言切换标志 -->
 {% if page.url contains '/en/' %}
-  {% assign zh_url = page.url | remove: '/en' %}
+  {% comment %} 当前是英文页面，查找对应的中文版本 {% endcomment %}
+  {% if page.lang_ref %}
+    {% assign zh_posts = site.posts | where: "lang_ref", page.lang_ref %}
+    {% if zh_posts.size > 0 %}
+      {% assign zh_url = zh_posts[0].url %}
+    {% else %}
+      {% assign zh_url = page.url | remove: '/en' %}
+    {% endif %}
+  {% else %}
+    {% assign zh_url = page.url | remove: '/en' %}
+  {% endif %}
   {% if zh_url == '/' %}
     {% assign zh_url = '/' %}
   {% endif %}
@@ -13,7 +23,17 @@
   </a>
 </li>
 {% else %}
-  {% assign en_url = page.url | prepend: '/en' %}
+  {% comment %} 当前是中文页面，查找对应的英文版本 {% endcomment %}
+  {% if page.lang_ref %}
+    {% assign en_posts = site.posts_en | where: "lang_ref", page.lang_ref %}
+    {% if en_posts.size > 0 %}
+      {% assign en_url = en_posts[0].url %}
+    {% else %}
+      {% assign en_url = page.url | prepend: '/en' %}
+    {% endif %}
+  {% else %}
+    {% assign en_url = page.url | prepend: '/en' %}
+  {% endif %}
   {% if page.url == '/' %}
     {% assign en_url = '/en/' %}
   {% endif %}
