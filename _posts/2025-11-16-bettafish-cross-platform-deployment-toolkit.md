@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BettaFish 一键部署工具包 - 使用指南"
+title: "BettaFish 一键部署工具包 v2.0 - 使用指南"
 date: 2025-11-16 08:00:00 +0800
 summary: "BettaFish 一键部署工具包，双击运行即可完成部署。支持 Windows、macOS、Linux 三大平台，5-10 分钟完成，无需技术背景。"
 categories: Tech
@@ -8,11 +8,20 @@ tags: [BettaFish, 一键部署, 跨平台工具, 自动化部署]
 author: LION CC
 ---
 
-> **工具作者**: Jascen（[codecodex.ai](https://codecodex.ai)）
+> **工具作者**: LION CC（[codecodex.ai](https://codecodex.ai)）
 >
 > **工具版本**: v2.1.0
 > **支持平台**: Windows / macOS / Linux
 > **部署时间**: 5-10 分钟
+
+---
+
+## ✨ v2.0 新特性
+
+- ✅ **一键部署** - 双击运行，自动完成所有配置
+- ✅ **智能修复** - Windows fix-all 工具自动诊断 9 大类问题
+- ✅ **跨平台菜单** - 统一的交互式菜单体验
+- ✅ **零技术门槛** - 无需手动编辑配置文件
 
 ---
 
@@ -29,29 +38,10 @@ cd deployment-scripts-hub/bettafish
 
 > **🎁 福利**: 扫描下方二维码加入 codecodex.ai 社群，获取工具包 + 技术支持 + VibeCoding API 优惠
 
-<div id="qrcode-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; background: rgba(0,0,0,0.8); z-index: 9999; justify-content: center; align-items: center;" onclick="hideQRCode()">
-  <div style="background: white; padding: 30px; border-radius: 15px; text-align: center; max-width: 400px;" onclick="event.stopPropagation()">
-    <h3 style="margin-top: 0; color: #333;">加入 CodeCodex 技术社群</h3>
-    <img src="/images/wechat-assistant-qrcode.jpg" alt="CodeCodex 技术助手微信二维码" style="width: 100%; max-width: 300px; border-radius: 10px; margin: 20px 0;">
-    <p style="color: #666; font-size: 14px;">微信扫码添加技术助手，备注：<strong>BettaFish工具包</strong></p>
-    <p style="color: #999; font-size: 12px; margin-top: 5px;">获取工具包 + 技术支持 + VibeCoding API 优惠</p>
-    <button onclick="hideQRCode()" style="background: #0066cc; color: white; border: none; padding: 10px 30px; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">关闭</button>
-  </div>
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/wechat-assistant-qrcode.jpg" alt="CodeCodex 技术助手微信二维码" style="width: 100%; max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <p style="color: #666; font-size: 14px; margin-top: 10px;">微信扫码添加技术助手，备注：<strong>BettaFish工具包</strong></p>
 </div>
-
-<script>
-function showQRCode() {
-  document.getElementById('qrcode-modal').style.display = 'flex';
-  document.body.style.overflow = 'hidden';
-}
-function hideQRCode() {
-  document.getElementById('qrcode-modal').style.display = 'none';
-  document.body.style.overflow = 'auto';
-}
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') hideQRCode();
-});
-</script>
 
 ---
 
@@ -142,6 +132,32 @@ cd deployment-scripts-hub/bettafish/Linux_macOS
 
 ---
 
+## 📋 工具包内容
+
+### Windows 工具
+- `menu.bat` - 交互式菜单
+- `deploy.bat` - 快速部署
+- `fix-all.bat` - 智能修复（9类诊断）
+- `docker-deploy.bat` - 完整部署流程
+
+### macOS/Linux 工具
+- `menu.sh` - 交互式菜单
+- `docker-deploy.sh` - 一键部署
+- `diagnose.sh` - 系统诊断
+- `docker-cleanup.sh` - Docker 清理
+
+---
+
+## 🎯 部署成功后
+
+1. 浏览器访问: `http://localhost:5001`
+2. 首次使用需配置 AI 模型（已自动填入 API）
+3. 开始对话，体验 AI 助手功能
+
+**提示**: 支持多种 AI 模型切换，可在界面中随时更换
+
+---
+
 ## ❓ 常见问题
 
 ### Q1: 需要什么前置条件？
@@ -181,7 +197,7 @@ cd deployment-scripts-hub/bettafish/Linux_macOS
 - **BettaFish 项目**: [https://github.com/666ghj/BettaFish](https://github.com/666ghj/BettaFish)
 - **部署工具包**: [https://github.com/Jascenn/deployment-scripts-hub](https://github.com/Jascenn/deployment-scripts-hub)
 - **VibeCoding API**: [https://vibecodingapi.ai](https://vibecodingapi.ai)
-- **配置详解**: [BettaFish LionCC API 配置指南](/2025-11-07/bettafish-lioncc-api-deployment-guide.html)
+- **配置详解**: [部署工具包详细文档](https://github.com/Jascenn/deployment-scripts-hub/tree/main/bettafish)
 
 ---
 
@@ -190,7 +206,7 @@ cd deployment-scripts-hub/bettafish/Linux_macOS
 **Windows**: 双击 `menu.bat`
 **macOS/Linux**: 运行 `./menu.sh`
 
-有问题？<a href="#" onclick="showQRCode(); return false;" style="color: #0066cc;">加入技术社群</a>获取支持
+有问题？扫描上方二维码加入技术社群获取支持
 
 ---
 
