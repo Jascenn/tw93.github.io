@@ -6,6 +6,8 @@ summary: "BettaFish 微舆系统完整部署教程，包含 LionCC API 配置、
 categories: Tech
 tags: [BettaFish, LionCC, API部署, Docker, LLM, Claude, GPT-4, Gemini]
 author: Lion CC
+lang: zh-CN
+lang_ref: bettafish-lioncc-deployment
 ---
 
 > **作者**: Lion CC（[lioncc.ai](https://lioncc.ai)） 微信：HSQBJ088888888

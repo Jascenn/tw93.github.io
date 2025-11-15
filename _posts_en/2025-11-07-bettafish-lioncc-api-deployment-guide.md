@@ -8,6 +8,8 @@ tags: [BettaFish, LionCC, API Deployment, Docker, LLM, Claude, GPT-4, Gemini]
 author: Lion CC
 description: Complete BettaFish deployment guide with LionCC API configuration, Docker setup, model recommendations, and troubleshooting
 keywords: BettaFish deployment,LionCC API,Claude API,Docker deployment,LLM configuration,Gemini 2.5 Pro
+lang: en
+lang_ref: bettafish-lioncc-deployment
 ---
 
 > **Author**: Lion CC ([lioncc.ai](https://lioncc.ai)) WeChat: HSQBJ088888888
