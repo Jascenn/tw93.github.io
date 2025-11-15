@@ -16,6 +16,21 @@ author: LION CC
 
 ---
 
+## 📑 Table of Contents
+
+- [✨ v2.0 New Features](#-v20-new-features)
+- [📦 Get the Toolkit](#-get-the-toolkit)
+- [🔑 Prepare API Keys](#-prepare-api-keys)
+- [🪟 Windows Usage](#-windows-usage)
+- [🍎 macOS Usage](#-macos-usage)
+- [🐧 Linux Usage](#-linux-usage)
+- [📋 Toolkit Contents](#-toolkit-contents)
+- [🎯 After Successful Deployment](#-after-successful-deployment)
+- [❓ FAQ](#-faq)
+- [🔗 Related Resources](#-related-resources)
+
+---
+
 ## ✨ v2.0 New Features
 
 - ✅ **One-Click Deployment** - Double-click to run, automatic configuration
