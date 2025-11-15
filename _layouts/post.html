@@ -61,3 +61,28 @@ body_id: post
   color: white;
 }
 </style>
+
+<script>
+// 语言切换保持滚动位置
+(function() {
+  // 页面加载时恢复滚动位置
+  window.addEventListener('DOMContentLoaded', function() {
+    var savedScrollPos = sessionStorage.getItem('postLangSwitchScrollPos');
+    if (savedScrollPos !== null) {
+      setTimeout(function() {
+        window.scrollTo(0, parseInt(savedScrollPos));
+        sessionStorage.removeItem('postLangSwitchScrollPos');
+      }, 100);
+    }
+  });
+
+  // 点击语言切换按钮时保存滚动位置
+  document.addEventListener('click', function(e) {
+    var langSwitch = e.target.closest('.lang-switch-btn');
+    if (langSwitch) {
+      var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+      sessionStorage.setItem('postLangSwitchScrollPos', scrollPos);
+    }
+  });
+})();
+</script>
